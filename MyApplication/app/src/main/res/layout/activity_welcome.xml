@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4"
+    android:orientation="vertical"
+
+    >
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:layout_gravity="center_horizontal|top"
+            android:orientation="vertical" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/meeting3"
+            android:visibility="visible" />
+        />
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp" />
+
+
+        <TextView
+            android:id="@+id/tv-availableroom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+
+
+
+            android:text="Show available rooms "
+
+            android:textAlignment="center"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp" />
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/tv-bookyourroom"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+
+            android:text="Your created Schedule"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp" />/>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp" />
+
+
+        <TextView
+            android:id="@+id/tv-showyourscehdule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal"
+
+            android:text="Show Your Schedule"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp" />
+        />
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+
+
+        <TextView
+            android:id="@+id/tv-showpartnerschedule"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+
+            android:text="Show Partners' Schedle"
+            android:textAlignment="center"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp" />/>
+
+
+
+
+
+
+    </TableLayout>
+
+</RelativeLayout>

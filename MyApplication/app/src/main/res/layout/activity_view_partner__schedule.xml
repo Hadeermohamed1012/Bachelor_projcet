@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4"
+    android:orientation="vertical"
+
+    tools:context=".View_partner_Schedule">
+
+
+    <EditText
+        android:id="@+id/et_pname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:hint="Enter partner's Name or Email"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/b_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="serif"
+        android:text="View "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvp"
+        android:layout_width="220dp"
+        android:layout_height="55dp" />
+
+
+</LinearLayout>
